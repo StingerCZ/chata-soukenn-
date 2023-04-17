@@ -5,7 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="95W7_tKmTixvmPf6XzZEq9Rh85joNpZ8Glux4PCGYRE">
 <style type="text/css">
- body {
+
+ .wrapper {
+width: 100%;
+}
+
+
+ .img-info {
+   width: 100%;
+}
+ 
+.img-info h2 {
+font-size: 50px;
+color: #111;
+line-height: 44px;
+}
+
+ 
+.img-info p {
+font-size: 16px;
+color: #111;
+line-height: 24px;
+}
+
+
+ .img- {
+
+}
+
+ . {
+
+}
+
+ . {
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -20,10 +67,20 @@
         padding: 20px;
         margin-bottom: 20px;
       }
+
       @media screen and (max-width: 600px) {
         .container {
           max-width: 100%;
         }
+        .nav {
+          max-width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+                background-color: #f2f2f2;
+        padding: 20px;
+        margin-bottom: 20px;
+      }}
       }
 h1 {
     font-family: 'Abril Fatface';font-size: 22px;
@@ -120,6 +177,10 @@ a:hover, a:active {
   background-color: rgba(0,0,0,0.8);
 }
 
+table {
+  width: 100%;
+}
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -151,14 +212,14 @@ margin-right: 20px
 </style>
 <body> 
 <header>
-<img style="margin-left: 1100px" src="logo.jpg" width="400" height=200" alt="Chata Soukenná logo" title=Chata Soukenná>
+<img class="img-logo" style="margin-left: 1100px" src="logo.jpg" width="400" height=200" alt="Chata Soukenná logo" title=Chata Soukenná>
 <a href="soukenná.html">
 </a>
 <center><strong><h1 style="color:blue;">Chata Soukenná</h1></strong></center>
 </header>
-
+  <div class="container">
+      <div class="box">
 <font color="black">
-<div>
 <hr>
 <nav>  
 <table class="active">
@@ -170,7 +231,6 @@ margin-right: 20px
 <td align="center"><a href="lokace.htm" style="text-decoration:none">lokace</a></td>
 </tr>
 </nav>
-</div>
 </font>
 
 </table>
@@ -246,10 +306,11 @@ function showSlides() {
 
 <div class="sd apply-design-3388">
 <div class="row relative collapse">
+<div class="wrapper">
+<article class="img-info">
 
-<center>
-
-<p>Nabízíme celoroční ubytování ve dvou samostatných apartmánech, každý s kapacitou ubytování až pro 5 osob, lze pronajmout i jako celek pro 10 osob</p>
+ 
+<p style="margin-left: 40px">Nabízíme celoroční ubytování ve dvou samostatných apartmánech, každý s kapacitou ubytování až pro 5 osob, lze pronajmout i jako celek pro 10 osob</p>
 
 <p style="margin-left: 40px">Ve spodním apartmánu se nachází plně vybavená kuchyně s jídelním stolem, dvouplotýnkovou sklokeramickou deskou, rozkládacím gaučem (pro dvě osoby), ledničkou, mikrovlnkou, rychlovarnou konvicí, poté se vedle nachází ložnice s manželskou postelí a jednou postelí samostatnou, dvě koupelny se sprchovým koutem a záchodem, 2 TV a samozřejmě i WIFI po celém objektu.</p>
 
@@ -288,13 +349,13 @@ function showSlides() {
 
 <p style="margin-left: 40px">Whirpool soukromá - 45 min - 380 Kč / 2 osoby (pro 2 osoby)</p>
 
-<img style="margin-left: 40px" src="welness 1.jpeg" width="300" height="200"> <center> <p style="margin-left: 40px">Wellness - Penzion Eva</h2>
+<img style="margin-left: 40px" src="welness 1.jpeg" width="300" height="200"> <p style="margin-left: 40px">Wellness - Penzion Eva</h2>
 
 <p style="margin-left: 40px">Finská sauna - 90 min - 200 Kč/ osoba (max pro 6 osob, minimální částka je 450 Kč)</p>
 
 <p style="margin-left: 40px">Whirpool - 30 min - 130 Kč/ osoba (max pro 5 osob, minimální částka je 350 Kč)</p>
 
-<p style="margin-left: 40px">Whirpool soukromá - 45 min - 380 Kč / 2 osoby (pro 2 osoby)</p></center> <img src="welness 2.jpeg" width="300" height="200">
+<p style="margin-left: 40px">Whirpool soukromá - 45 min - 380 Kč / 2 osoby (pro 2 osoby)</p></center> <img style="margin-left: 40px" src="welness 2.jpeg" width="300" height="200">
 
 <h2 style="margin-left: 40px">MASÁŽE</h2>
 
@@ -328,7 +389,9 @@ function showSlides() {
 <p style="margin-left: 40px">Termální bazén Karlova Studánka, 10 km</p>
 
 <p style="margin-left: 40px">Karlov, bobová dráha, singl tracky pro horská kola</p>
-
+  </div>
+      </div>
+<article>
 <footer>
 <p>Chata Soukenná</p>
 <p>Adresa: Dolní Moravice p. č. st. 358   |   GPS chaty: 49.98478N, 17.31648E</p>
